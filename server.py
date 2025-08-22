@@ -39,7 +39,7 @@ init(autoreset=True)
 # === GLOBALS ===
 clients = {}  # key: "hostname[ip]" -> { conn, addr, info }
 lock = threading.Lock()
-CONFIG_URL = "https://raw.githubusercontent.com/ExsoKamabay/Api-scrap/refs/heads/master/kmy_scrap/files.json"
+CONFIG_URL = "https://raw.githubusercontent.com/ExsoKamabay/dracOs/refs/heads/main/CONFIG_URL.json"
 
 # === KONFIG SERVER (baca bagian 'server' dari JSON) ===
 def get_server_bind():
