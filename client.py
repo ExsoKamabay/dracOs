@@ -14,16 +14,16 @@ def ensure(package, module=None):
 for mod in ["requests"]:
     ensure(mod)
 
-CONFIG_URL = "https://raw.githubusercontent.com/ExsoKamabay/Api-scrap/refs/heads/master/kmy_scrap/files.json"
+CONFIG_URL = "https://raw.githubusercontent.com/ExsoKamabay/dracOs/refs/heads/main/CONFIG_URL.json"
 
 # === KONFIG CLIENT (baca bagian 'client' dari JSON) ===
 def get_server_target():
     """
-    CLIENT WAJIB ambil host/port dari bagian 'client' di files.json
+    CLIENT WAJIB ambil host/port dari bagian 'client' di CONFIG_URL.json
     Contoh:
     {
       "server": {"host": "0.0.0.0", "port": 8080},
-      "client": {"host": "0.tcp.ap.ngrok.io", "port": 15799}
+      "client": {"host": "0.0.0.0", "port": 8080}
     }
     """
     try:
