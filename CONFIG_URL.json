@@ -4,8 +4,9 @@
     "port":8080
   },
   "client":{
-    "host":"0.tcp.ap.ngrok.io:18170",
+    "host":"0.tcp.ap.ngrok.io",
     "port":18170
   }
 
 }
+
