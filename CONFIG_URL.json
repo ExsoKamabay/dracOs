@@ -1,14 +1,15 @@
 {
   "server":{
-    "host":"192.168.0.1",
-    "port":5555
+    "host":"0.0.0.0",
+    "port":8080
   },
   "client":{
-    "host":"192.168.0.1",
-    "port":5555
+    "host":"0.tcp.ap.ngrok.io"
+    "port":18431
   }
 
 }
+
 
 
 
